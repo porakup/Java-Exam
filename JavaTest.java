@@ -58,7 +58,6 @@ public class JavaTest {
 
                     if(compareA){
                         outer:for(int k = 0; k < inputBList.size(); k++){
-                            loop:
                             for(int l = 0; l < inputBList.get(k).length(); l++){
                                 if(i != k){
                                     if(inputBList.get(i).charAt(l) == inputBList.get(k).charAt(l)){
